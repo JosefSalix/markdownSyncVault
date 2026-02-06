@@ -1,1 +1,1 @@
-# .syncVault
+# markdownSyncVault
