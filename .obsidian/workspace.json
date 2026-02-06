@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "creating-usb-stick-with-the-dd-command.md",
+                "file": "linux-custom-partitioning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "creating-usb-stick-with-the-dd-command"
+              "title": "linux-custom-partitioning"
             }
           }
         ]
@@ -197,6 +197,7 @@
   },
   "active": "15261efe6a85aaf2",
   "lastOpenFiles": [
+    "creating-usb-stick-with-the-dd-command.md",
     "endeavour-install-setup.md",
     "README.md"
   ]
