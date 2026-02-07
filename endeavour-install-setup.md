@@ -1,4 +1,4 @@
-#### Alias
+# Alias
 Vytvor si alias na: `sudo pacman -S --needed`
 
 # Xmonad
