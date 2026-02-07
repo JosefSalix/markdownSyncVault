@@ -1,29 +1,19 @@
 #### Alias
 Vytvor si alias na: `sudo pacman -S --needed`
 
-#### Development
+# Xmonad
 
 ```bash
-sudo pacman -S --needed \
-ghc \
-cabal-install
-```
-
-#### Xmonad
-
-```bash
+sudo pacman -S ghc cabal-install
 sudo pacman -S xmonad xmonad-contrib xmonad-extras
 sudo pacman -S dmenu polybar rofi lxappearance
-sudo pacman -S picom feh scrot
-sudo pacman -S xorg-xset
-sudo pacman -S xorg-xsetroot
-sudo pacman -S xclip
+sudo pacman -S picom feh scrot xclip
+sudo pacman -S xorg-xset xorg-xsetroot
 sudo pacman -S dunst network-manager-applet
-sudo pacman -S volumeicon playerctl
-sudo pacman -S brightnessctl
+sudo pacman -S volumeicon playerctl brightnessctl
 ```
 
-#### Fonts
+# Fonts
 
 ```bash
 sudo pacman -S ttf-nerd-fonts-symbols
@@ -40,28 +30,9 @@ sudo pacman -S ttf-iosevka-nerd
 sudo pacman -S ttf-font-awesome
 ```
 
-#### Apps
+# Apps
 
 ```bash
 sudo pacman -S emacs kitty chromium
-sudo pacman -S gnome-characters
+sudo pacman -S gnome-characters seahorse
 ```
-
-#### Wifi
-
-```bash
-sudo pacman -S seahorse
-```
-
-#### Desktop entry (maybe)
-
-```bash
-sudo emacs /usr/share/xsessions/xmonad.desktop
-
-[Desktop Entry]
-Name=XMonad
-Comment=Lightweight tiling window manager
-Exec=xmonad
-Type=Application
-```
-
