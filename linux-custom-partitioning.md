@@ -20,4 +20,13 @@ and replace with a different linux. 30GB is more than enough for most
 distros, except when you use the *Btrfs* filesystem, then you should
 make it 60GB to make room for storing snapshots.
 
-Put home ... page 21.
+Put **/home** on its own partition to isolate it from the root
+filesystem, so you can replace your linux installation withou touching
+/home.
+
+**/var** and **/tmp** can fill up from runaway processes. Putting them
+on their own partition prevents them from crashing the other
+filesystems.
+
+Putting a **swap** file equal to the size of your RAM on its own
+partition enables suspend-to-disk.
