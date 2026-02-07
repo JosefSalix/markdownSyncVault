@@ -3,7 +3,7 @@
 | ==Partition== | ==Filesystem== | ==Mountpoint== |
 |---------------|----------------|----------------|
 | 512M          | FAT 32         | /boot/efi      |
-| 80G           | ext4           | /              |
+| 90G           | ext4           | /              |
 | 50G           | ext4           | /var           |
 | 20G           | ext4           | /tmp           |
 | 16G           | swap           | swap           |
