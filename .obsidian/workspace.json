@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "browser-links.md",
+                "file": "endeavour-install-setup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "browser-links"
+              "title": "endeavour-install-setup"
             }
           }
         ]
@@ -194,9 +194,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "15261efe6a85aaf2",
+  "active": "ae395cc7b0e9ad46",
   "lastOpenFiles": [
     "linux-custom-partitioning.md",
+    "browser-links.md",
     "creating-usb-stick-with-the-dd-command.md",
     "endeavour-install-setup.md",
     "README.md"
